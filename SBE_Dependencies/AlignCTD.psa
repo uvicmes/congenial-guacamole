@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Align_CTD >
+  <Version value="7.26.1.8" />
+  <ServerName value="Align CTD" />
+  <InputDir value="Z:\Tears\binary" />
+  <InputFileArray size="33" GrowBy="-1" >
+    <ArrayItem index="0" value="tears_1107_psv_2009_252_035.cnv" />
+    <ArrayItem index="1" value="tears_1107_bpt_2009_252_036.cnv" />
+    <ArrayItem index="2" value="tears_1107_bwr_2009_252_026.cnv" />
+    <ArrayItem index="3" value="tears_1107_psv_2009_252_033.cnv" />
+    <ArrayItem index="4" value="tears_1107_bwr_2009_252_016.cnv" />
+    <ArrayItem index="5" value="tears_1107_flc_2009_252_040.cnv" />
+    <ArrayItem index="6" value="tears_1107_bpt_2009_252_038.cnv" />
+    <ArrayItem index="7" value="tears_1107_psv_2009_252_031.cnv" />
+    <ArrayItem index="8" value="tears_1107_flc_2009_252_041.cnv" />
+    <ArrayItem index="9" value="tears_1107_bwr_2009_252_015.cnv" />
+    <ArrayItem index="10" value="tears_1107_bpt_2009_252_037.cnv" />
+    <ArrayItem index="11" value="tears_1107_rwy_2009_252_013.cnv" />
+    <ArrayItem index="12" value="tears_1107_bwr_2009_252_025.cnv" />
+    <ArrayItem index="13" value="tears_1107_rwy_2009_252_014.cnv" />
+    <ArrayItem index="14" value="tears_1107_bwr_2009_252_024.cnv" />
+    <ArrayItem index="15" value="tears_1107_rwy_2009_252_028.cnv" />
+    <ArrayItem index="16" value="tears_1107_psv_2009_252_029.cnv" />
+    <ArrayItem index="17" value="tears_1107_flc_2009_252_039.cnv" />
+    <ArrayItem index="18" value="tears_1107_bwr_2009_252_019.cnv" />
+    <ArrayItem index="19" value="tears_1107_rwy_2009_252_010.cnv" />
+    <ArrayItem index="20" value="tears_1107_bwr_2009_252_027.cnv" />
+    <ArrayItem index="21" value="tears_1107_bwr_2009_252_023.cnv" />
+    <ArrayItem index="22" value="tears_1107_bwr_2009_252_018.cnv" />
+    <ArrayItem index="23" value="tears_1107_bpt_2009_252_022.cnv" />
+    <ArrayItem index="24" value="tears_1107_bwr_2009_252_020.cnv" />
+    <ArrayItem index="25" value="tears_1107_psv_2009_252_030.cnv" />
+    <ArrayItem index="26" value="tears_1107_bwr_2009_252_021.cnv" />
+    <ArrayItem index="27" value="tears_1107_rwy_2009_252_011.cnv" />
+    <ArrayItem index="28" value="tears_1107_rwy_2009_252_012.cnv" />
+    <ArrayItem index="29" value="tears_1107_psv_2009_252_032.cnv" />
+    <ArrayItem index="30" value="tears_1107_psv_2009_252_034.cnv" />
+    <ArrayItem index="31" value="tears_1107_rwy_2009_252_009.cnv" />
+    <ArrayItem index="32" value="tears_1107_bwr_2009_252_017.cnv" />
+  </InputFileArray>
+  <OutputDir value="Z:\Tears\processed" />
+  <NameAppend value="" />
+  <OutputFile value="" />
+  <LastProcessed value="0" />
+  <CalcArray Size="7" >
+    <CalcArrayItem index="0" CalcID="95" >
+      <Calc UnitID="3" Ordinal="0" >
+        <FullName value="Pressure, Strain Gauge [db]" />
+      </Calc>
+    </CalcArrayItem>
+    <CalcArrayItem index="1" CalcID="12" >
+      <Calc UnitID="58" Ordinal="0" >
+        <FullName value="Conductivity [S/m]" />
+      </Calc>
+    </CalcArrayItem>
+    <CalcArrayItem index="2" CalcID="81" >
+      <Calc UnitID="6" Ordinal="0" >
+        <FullName value="Temperature [ITS-90, deg C]" />
+      </Calc>
+    </CalcArrayItem>
+    <CalcArrayItem index="3" CalcID="93" >
+      <Calc UnitID="38" Ordinal="0" >
+        <FullName value="Fluorescence, WET Labs ECO-AFL/FL [mg/m^3]" />
+      </Calc>
+    </CalcArrayItem>
+    <CalcArrayItem index="4" CalcID="150" >
+      <Calc UnitID="45" Ordinal="0" >
+        <FullName value="Turbidity, WET Labs ECO [NTU]" />
+      </Calc>
+    </CalcArrayItem>
+    <CalcArrayItem index="5" CalcID="57" >
+      <Calc UnitID="63" Ordinal="0" >
+        <FullName value="Oxygen raw, SBE 43 [V]" />
+        <ApplyHysteresisCorrection value="1" />
+      </Calc>
+    </CalcArrayItem>
+    <CalcArrayItem index="6" CalcID="60" >
+      <Calc UnitID="-1" Ordinal="0" >
+        <FullName value="pH" />
+      </Calc>
+    </CalcArrayItem>
+  </CalcArray>
+  <ValArray size="7" >
+    <ValArrayItem index="0" value="0.000000" variable_name="Pressure, Strain Gauge" />
+    <ValArrayItem index="1" value="0.000000" variable_name="Conductivity" />
+    <ValArrayItem index="2" value="0.000000" variable_name="Temperature" />
+    <ValArrayItem index="3" value="0.000000" variable_name="Fluorescence, WET Labs ECO-AFL/FL" />
+    <ValArrayItem index="4" value="0.000000" variable_name="Turbidity, WET Labs ECO" />
+    <ValArrayItem index="5" value="5.000000" variable_name="Oxygen raw, SBE 43" />
+    <ValArrayItem index="6" value="0.000000" variable_name="pH" />
+  </ValArray>
+</Align_CTD>
